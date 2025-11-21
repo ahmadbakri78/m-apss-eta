@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
     // 🔹 PENTING UNTUK GITHUB PAGES
     base: '/m-apss-eta/',
 
-    server: {
+    server: { 
       port: 3000,
       host: '0.0.0.0',
     },
