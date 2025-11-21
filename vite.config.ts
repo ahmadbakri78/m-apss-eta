@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    // 🔹 PENTING UNTUK GITHUB PAGES
+    
     base: '/m-apss-eta/',
 
     server: { 
